@@ -1,0 +1,17 @@
+.nav-menu{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.navbar{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-item{
+  display: grid;
+}
+.logo-div{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
