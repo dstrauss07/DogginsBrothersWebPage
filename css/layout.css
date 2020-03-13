@@ -1,17 +1,25 @@
-.nav-menu{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+.container-grid{
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+}
+
+.nav-menu div{
+  text-align: right;
 }
 .navbar{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display:inline-grid;
+  grid-template-columns: auto fit-content(60%) auto;
 }
-.nav-item{
-  display: grid;
+.nav-item, .bottom{
+  display: inline-block;
 }
+
 .logo-div{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto [logo]fit-content(40%) auto;
 }
 
-
+.bottom-menu{
+  display:inline-grid;
+  grid-template-columns: auto fit-content(60%) auto;
+}

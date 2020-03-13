@@ -7,6 +7,17 @@
   text-decoration: none;
 }
 
+
+
+body{
+  background-color: black;
+}
+
+a, a:hover, a:visited, a:active{
+  text-decoration: none;
+}
+
+
 .green{
 
   color:green;
@@ -17,31 +28,63 @@
   color:red;
 }
 
-.nav-menu{
+.nav-menu, .bottom-menu{
 background-color: black;
 padding: .5rem 0;
 }
 
+.navbar{
+  background-color:  black
+}
+
+
 .nav-item{
-  color:white;
-  font-family: 'Cinzel', serif;
-  background-color: darkblue;
+  background-color: rgb(132, 153, 217);
   font-size: 1.4rem;
   padding:.5rem;
-  border: .5px gold solid;
+  margin: 0 1rem;
+  border: .5px rgb(66,77,140) solid;
+  border-radius: 97%;
 }
 
-.nav-item:hover{
-color:rgb(243, 97, 97);
-font-size: 1.45rem;
-padding:.45rem;
+.nav-item a{
+  color:black;
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
 }
 
-.doggins-photo img{
-max-width: 100%;
+.nav-item a:hover{
+color:gold;
+border-color: red;
+text-decoration: none;
 }
 
 .logo-div{
+  padding:1rem 0;
   background-color: black;
 }
+
+.doggins-img{
+  max-width: 100%;
+  border-radius: 50%;
+  }
+
+  .bottom-menu{
+  padding-top: 1rem;
+  }
+.bottom, .bottom:hover {
+  font-size: 1.05rem;
+  padding:.5rem;
+  background-color:rgb(0, 20, 10);
+}
+  .bottom a{
+
+    color: whitesmoke;
+  }
+  .bottom a:hover{
+    color:red;
+    text-decoration: none;
+  }
+
+
 
